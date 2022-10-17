@@ -3,6 +3,7 @@ using System.Diagnostics.CodeAnalysis;
 
 namespace TodoApi.Models
 {
+    //Database Context
     public class TodoContext : DbContext
     {
         public TodoContext(DbContextOptions<TodoContext> options)
